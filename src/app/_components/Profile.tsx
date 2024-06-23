@@ -8,8 +8,9 @@ import {
   faPython,
   faReact,
   faHtml5,
+  faSquareOdnoklassniki,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase , faC , faLanguage} from "@fortawesome/free-solid-svg-icons";
+import { faDatabase , faC , faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type Props = {};
@@ -32,7 +33,10 @@ const Profile = (props: Props) => {
       </div>
 
       <div className="py-10 text-center ">" Effort never hurt anyone. "</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
+      <div className="p-6 mx-1 xl:mx-6 bg-blue-200 rounded-md">
+      <p>
+          <FontAwesomeIcon icon={faSquareOdnoklassniki} className='h-7'/>&nbsp;&nbsp;<b className='text2'>Information</b>
+        </p>
         <p>
           <b>Age:</b> 20
         </p>
@@ -44,7 +48,7 @@ const Profile = (props: Props) => {
         </p>
       </div>
 
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md margin-box">
+      <div className="p-6 mx-1 xl:mx-6 bg-blue-200 rounded-md margin-box">
         <p>
           <FontAwesomeIcon icon={faLanguage} className='h-7'/>&nbsp;&nbsp;<b className='text2'>Languages</b>
         </p>
