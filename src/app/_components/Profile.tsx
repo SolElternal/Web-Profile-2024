@@ -23,7 +23,7 @@ const Profile = (props: Props) => {
           width={400}
           height={550}
           alt="profile picture"
-          className="w-3/4 aspect-square rounded-full border-4 border-white"
+          className="w-3/4 aspect-square rounded-full border-4 border-white skew-y-6"
         />
       </div>
       <div className="text-center">
@@ -55,6 +55,7 @@ const Profile = (props: Props) => {
           <b>English:</b> Intermediate
         </p>
       </div>
+      
     </div>
   );
 };

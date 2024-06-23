@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-4">
+    <div className="container mx-auto pt-4 bg-gradient-to-r from-sky-600 via-sky-300 to-sky-600 margin-box2">
       <div className="flex gap-4 justify-end pb-4">
         <div>
 
@@ -46,6 +46,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>&nbsp;&nbsp;</div><div>&nbsp;&nbsp;</div>
     </div>
   );
 }

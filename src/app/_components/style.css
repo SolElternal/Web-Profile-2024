@@ -6,6 +6,13 @@
     margin-top: 10px;
 }
 
+.margin-box2 {
+    margin-top: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2%;
+}
+
 .text-head {
     font-size: 1.5rem;
     margin-bottom: 10px;
