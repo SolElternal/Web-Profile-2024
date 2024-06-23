@@ -2,12 +2,11 @@ import {
   faDocker,
   faJava,
   faJs,
-  faPhp,
   faPython,
   faReact,
-  faRust,
-  faVuejs,
+  faHtml5,
 } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase , faC , faBolt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
 
@@ -15,19 +14,19 @@ type Props = {};
 
 const Skill = (props: Props) => {
   return (
-    <Card title="Skill">
+    <Card title=""><p className='flex text-head'>Skill&nbsp;&nbsp;<FontAwesomeIcon icon={faBolt} className="h-8" /></p>
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         <div className="text-center">
-          <FontAwesomeIcon icon={faPhp} className="h-10" />
-          <p>PHP</p>
+          <FontAwesomeIcon icon={faDatabase} className="h-10" />
+          <p>MySQL</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faPython} className="h-10" />
           <p>Python</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faRust} className="h-10" />
-          <p>Rust</p>
+          <FontAwesomeIcon icon={faHtml5} className="h-10"/>
+          <p>HTML</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faReact} className="h-10" />
@@ -46,8 +45,8 @@ const Skill = (props: Props) => {
           <p>Docker</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faVuejs} className="h-10" />
-          <p>Vue.js</p>
+          <FontAwesomeIcon icon={faC} className="h-10"/>
+          <p>C++</p>
         </div>
       </div>
     </Card>

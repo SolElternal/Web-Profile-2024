@@ -13,14 +13,20 @@ export default function Home() {
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
         <div>
-          <Link href="/" className="hover:text-blue-600">
-            Profile
+
+        <div className="hidden sm:ml-6 sm:block">
+          <div className="flex space-x-4">
+            
+          <Link href="/" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Profile</Link>
+          <Link href="/blog" className="rounded-md px-3 py-2 text-sm font-medium text-neutral-950 hover:bg-gray-700 hover:text-white flex">Blog&nbsp;&nbsp;
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+             </span>
           </Link>
+            
+          </div>
         </div>
-        <div>
-          <Link href="/blog" className="hover:text-blue-600">
-            Blog
-          </Link>
         </div>
       </div>
       <div className="grid grid-flow-col grid-cols-8 gap-4">
