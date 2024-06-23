@@ -20,7 +20,7 @@ const Profile = (props: Props) => {
     <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
-          src="/profile_me2.jpg"
+          src="/289489333_2525518237610556_8684803949355561487_n.jpg"
           width={400}
           height={550}
           alt="profile picture"
