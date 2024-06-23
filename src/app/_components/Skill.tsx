@@ -16,7 +16,7 @@ const Skill = (props: Props) => {
   return (
     <Card title=""><p className='flex text-head'>Skill&nbsp;&nbsp;<FontAwesomeIcon icon={faBolt} className="h-8" /></p>
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        <div className="text-center">
+        <div className="text-center ">
           <FontAwesomeIcon icon={faDatabase} className="h-10" />
           <p>MySQL</p>
         </div>

@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "./common/Card";
 import Badge from "./common/Badge";
+import Badge2 from "./common/Badge2";
+import Badge3 from "./common/Badge3";
+import Badge4 from "./common/Badge4";
 import {
   faDocker,
   faJava,
@@ -24,9 +27,9 @@ const Personality = (props: Props) => {
         </p>
         <div className="flex gap-1">
           <Badge>AMBIVERTED</Badge>
-          <Badge>FUNING</Badge>
-          <Badge>FEELING</Badge>
-          <Badge>PROSPECTING</Badge>
+          <Badge2>FUNING</Badge2>
+          <Badge3>FEELING</Badge3>
+          <Badge4>PROSPECTING</Badge4>
         </div>
       </div>
     </Card>
